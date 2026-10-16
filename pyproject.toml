@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qvend"
+version = "1.0.0"
+description = "A quantum vending machine (coffee at 25 cents) built in Qiskit"
+requires-python = ">=3.10"
+dependencies = ["qiskit>=1.1", "qiskit-aer>=0.13", "numpy>=1.24"]
+
+[tool.setuptools]
+packages = ["qvend"]
